@@ -2,10 +2,8 @@
 
 window.onload = function () {
     document.getElementById('addingButton').addEventListener("click", addNumbers);
-};
 
-window.onload = function() {
-    document.getElementById('multiplyButton').addEventListener("click", multiplyNumbers)
+    document.getElementById('multiplyButton').addEventListener("click", multiplyNumbers);
 };
 
 function addNumbers(e) {
